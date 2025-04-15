@@ -32,10 +32,26 @@ Thanks for checking out this front-end coding challenge.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
+<p> 
+  <figure class="footer">
+      <div class="flex">
+        <img src="./assets/images/image-avatar.webp" alt="">
+      </div>
+      <div class="margin_left">
+        <p>Greg Hooper</p>
+      </div>
+  </figure>
+</p>
 ```
 ```css
+:root{
+  --Yellow:hsl(47, 88%, 63%);
+  --darkGray:hsl(0, 0%, 7%);
+}
 .proud-of-this-css {
-  color: papayawhip;
+  background-color: var(--Yellow);
+  color:var(--darkGray);
+
 }
 ```
 ```js
