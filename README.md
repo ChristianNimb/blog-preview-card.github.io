@@ -11,7 +11,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## screenshot
 
-![Design preview for the Blog preview card coding challenge](./preview.jpg)
+![Design preview for the Blog preview card coding challenge](./screenshot.png)
 
 ## Welcome! 👋
 
