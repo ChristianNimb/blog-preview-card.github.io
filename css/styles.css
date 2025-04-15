@@ -103,7 +103,7 @@ article .p{
     .container{
        
         width: 87.0vw;
-        height: 56.8vh;
+        height: 100%;
         box-shadow: 8px 8px 0 var(--fGBold);
 
         
