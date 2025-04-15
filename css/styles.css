@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bgYellow:hsl(47, 88%, 63%);
+    --cWhite:hsl(0, 0%, 100%);
+    --fGray:hsl(0, 0%, 42%);
+    --fGBold:hsl(0, 0%, 7%);
+
+}
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--bgYellow);
+    
+}
+
+    
+
+.container{
+    width: 50%;
+    padding: 16px;
+    background-color: var(--cWhite);
+    border-radius: 14px;
+    box-shadow: 6.5px 5px 0 var(--fGBold);
+}
+.div img{
+    width: 100%;
+    border-radius:10px;
+}
+figcaption .p{
+    font-size: 13px;
+    font-weight: 950;
+    width: 72px;
+    padding:4px 8px 4px 8px;
+    border-radius: 3px;
+    background-color: var(--bgYellow);
+}
+figcaption .P{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 8px 0 8px 0;
+    color: var(--fGBold);
+}
+article h1{
+    padding:0 16px 0 0 ;
+    font-size: 18px;
+    font-weight: 950;
+    color: var(--fGBold);
+}
+article .h1{
+    font-size: 21px;
+    text-transform: uppercase;
+}
+article .p{
+    margin-top: 12px;
+    padding: 0 2px 0 0;
+    font-weight: 500;
+    color: var(--fGray);
+}
+.footer{
+    display:flex;
+    align-items: center;
+    margin: 14px 0 0 0;
+  
+    
+}
+.flex img{
+    width: 40%;
+}
+.margin_left{
+    margin-left: -30px;
+    font-size: 13px;
+    color: var(--fGBold);
+    font-weight: 950;
+}
+.attribution {
+    
+    margin: 40px 0 0 0;
+    
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+
+}
+@media screen and (min-width:1440px) {
+.container{
+    width: 50%;
+    padding: 18px;
+    background-color: var(--cWhite);
+    border-radius: 14px;
+    box-shadow: 6.5px 5px 0 var(--fGBold);
+}
+
+}
+
+@media screen and (max-width:375px) {
+    .container{
+       
+        width: 87.0vw;
+        height: 56.8vh;
+        box-shadow: 8px 8px 0 var(--fGBold);
+
+        
+        
+    }
+  
+    figcaption .p{
+        margin: 14px 0 0;
+    }
+    article h1{
+        margin: 13.8px 0 0 0;
+    }
+    .footer{
+        margin: 19px 0 0 0;
+    }
+
+} 
+ 
